@@ -4,34 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <nav>
         <ul>
             <li>Sirista Maharjan</li>
             <li><a href="#Home">Home</a></li>
-            <li><a href="#Education">Education</li></a>
+            <li><a href="#Education">Education</a></li>
             <li><a href="#Interests">Interests</a></li>
-            <li><a href="#Contact-me">Contact me</li></a>
+            <li><a href="#Contact-me">Contact me </a></li>
         </ul>
     </nav>
 
     <main> 
-        <div class="Home">HELLO, I'm</div>
-        <div class="Home"> Sirista Maharjan </div>
-        <span class="Home"> My name is Sirista Maharjan. I am 20 years old. I
+        <div class="Home">
+            <span>Hello, I am</span>
+            <span>Sirista Maharjan</span>
+            <span>My name is Sirista Maharjan. I am 20 years old. I
         am currently studying B.Sc in Herald college kathmandu.</span>
-        <img src=" ">
+        </div>
+        
+        <img src="images/photo.jpg">
 
-        <a href="#About me"> About-me </a>
+        <a href="#About-me"> About-me </a>
         <a href = "#Projects"> Projects </a>
-
-        <divy>
-            <h1>Hello this is for my github push.</h1>
+        <div id="About-me"><h3>About me</h3></div>
+        <span class="About-me"> Hello everyone. My name is Sirista Maharjan. I
+            liven in patan, lalitpur. I am 20 years old. Currently I am studying B.Sc in
+            Herald college.
+        </span>
+    </main>
+    <section>
+        <table id="Education">
+            <tr>
+                <th>Degree/Qualification</th>
+                <th>Institution</th>
+                <th>Board</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Bachelor in Science(B.Sc) in Computer Science</td>
+                <td>Herald College</td>
+                <td>University of Wolverhampton</td>
+                <td>currently studying in 1st year</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>ST Xavier's School Godawari</td>
+                <td>NEB</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Secondary Education</td>
+                <td>ST Xavier's School Godawari</td>
+                <td>NEB</td>
+                <td>A</td>
+    
+            </tr>
+        </table>
+    </section>
+    <section>
+        <div id="Interests">
+            <h3>Interests and Hobbies</h3>
+        <div>
+            <b>Interest 1:</b>
+            <span>I love dancing during my free time.</span>
+        </div>
+        <div>
+            <b>Interest 2:</b>
+            <span>I love to travel in different places, mostly treks.</span>
+        </div>
+        <div>
+            <b>Interest 3:</b>
+            <span>During summer, I love to swim.</span>
+        </div>
         </div>
 
-
-    </main>
+    </section>
+    <section>
+        <div id="Contact-me"> Connect with me:</div>
+        <div class="Contact-me">Contact me</div>
+        <form>
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="email">
+            <input type="number" placeholder="contact no.">
+            <input type="text" placeholder="message">
+        </form>
+    </section>
     
 </body>
 </html>
